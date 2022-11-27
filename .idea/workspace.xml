@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f5ac26a-abee-4036-bffa-f8614c9aac53" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP_Pokemon_JS.iml" afterDir="false" />
+    <list default="true" id="7f5ac26a-abee-4036-bffa-f8614c9aac53" name="Changes" comment="Premier commit du jeu Pokemon avec JS">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BO/Pokemon.js" beforeDir="false" afterPath="$PROJECT_DIR$/BO/Pokemon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,8 +53,16 @@
       <option name="presentableId" value="Default" />
       <updated>1669364568622</updated>
       <workItem from="1669364570718" duration="17245000" />
-      <workItem from="1669555971326" duration="6492000" />
+      <workItem from="1669555971326" duration="7232000" />
     </task>
+    <task id="LOCAL-00001" summary="Premier commit du jeu Pokemon avec JS">
+      <created>1669562589258</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669562589258</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -72,6 +78,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Premier commit du jeu Pokemon avec JS" />
+    <option name="LAST_COMMIT_MESSAGE" value="Premier commit du jeu Pokemon avec JS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

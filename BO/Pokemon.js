@@ -9,22 +9,24 @@ class Pokemon {
         this.attack2 = attack2;
     }
 
+    //Methode permettant de choisir l'attaque du Pokemon en fonction de son nombre de points de vie
     static attack(pokemon, lifePointNow) {
         let attack;
         if (lifePointNow < pokemon.lifePoint * 0.20) {
             attack = pokemon.attack2;
-
         } else {
             attack = pokemon.attack1;
         }
         return attack;
     }
 
+    //Methode de combat
     static combat(pokemon1, pokemon2) {
-        console.log(`${pokemon1.name} contre ${pokemon2.name}`)
+        console.log(`${pokemon1.name} VS ${pokemon2.name}`)
         let lifePointPokemon1 = pokemon1.lifePoint
         let lifePointPokemon2 = pokemon2.lifePoint;
-        console.log("C'est " + pokemon1.name + " qui commence avec " + lifePointPokemon1 + " points. " + pokemon2.name + " a " + lifePointPokemon2 + " points.");
+        console.log("C'est " + pokemon1.name + " qui commence avec " + lifePointPokemon1 + " points de vie. ");
+        console.log(pokemon2.name + " a " + lifePointPokemon2 + " points de vie.");
         console.log("**************************************************************")
         while (lifePointPokemon1 > 0 && lifePointPokemon2 > 0) {
             //Le Pokemon1 attaque :
@@ -51,13 +53,14 @@ class Pokemon {
         }
     }
 
+    //Methode permettant de selectionner le 1er joueur
     static randomFirstPlayer() {
         return Math.floor(Math.random() * 2);
     }
 
 
 }
-
+//Initialisation des joueurs
 let attackPikachu1 = new Attaque("statik", 10);
 let attackPikachu2 = new Attaque("paratonnerre", 25);
 let attackEvoli1 = new Attaque("adaptability", 9);
@@ -65,7 +68,7 @@ let attackEvoli2 = new Attaque("anticipation", 15);
 let pikachu = new Pokemon("Pikachu", 25, 40, 6, 82, attackPikachu1, attackPikachu2);
 let evoli = new Pokemon("Evoli", 133, 30, 6.5, 70, attackEvoli1, attackEvoli2);
 
-//On choisit le premier attaquant
+//Choix du premier attaquant
 if (Pokemon.randomFirstPlayer() == 0) {
     attaquant1 = pikachu;
     attaquant2 = evoli;
@@ -73,6 +76,6 @@ if (Pokemon.randomFirstPlayer() == 0) {
     attaquant1 = evoli;
     attaquant2 = pikachu;
 }
-
+//Lancement du combat
 Pokemon.combat(attaquant1, attaquant2);
 
