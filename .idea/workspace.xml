@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f5ac26a-abee-4036-bffa-f8614c9aac53" name="Changes" comment="Premier commit du jeu Pokemon avec JS">
+    <list default="true" id="7f5ac26a-abee-4036-bffa-f8614c9aac53" name="Changes" comment="MAJ">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BO/Attaque.js" beforeDir="false" afterPath="$PROJECT_DIR$/BO/Attaque.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BO/Pokemon.js" beforeDir="false" afterPath="$PROJECT_DIR$/BO/Pokemon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -26,6 +27,9 @@
     <selected>-1</selected>
     <servers />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -35,15 +39,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/zoran/IdeaProjects/M2I_exemple_JS&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/zoran/IdeaProjects/TP_JPA_exos",
+    "settings.editor.selected.configurable": "preferences.editor"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -53,7 +58,8 @@
       <option name="presentableId" value="Default" />
       <updated>1669364568622</updated>
       <workItem from="1669364570718" duration="17245000" />
-      <workItem from="1669555971326" duration="7232000" />
+      <workItem from="1669555971326" duration="8043000" />
+      <workItem from="1669625787290" duration="13563000" />
     </task>
     <task id="LOCAL-00001" summary="Premier commit du jeu Pokemon avec JS">
       <created>1669562589258</created>
@@ -62,7 +68,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669562589258</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="MAJ">
+      <created>1669563446208</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669563446208</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,14 +94,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Premier commit du jeu Pokemon avec JS" />
-    <option name="LAST_COMMIT_MESSAGE" value="Premier commit du jeu Pokemon avec JS" />
+    <MESSAGE value="MAJ" />
+    <option name="LAST_COMMIT_MESSAGE" value="MAJ" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/BO/Pokemon.js</url>
-          <line>26</line>
+          <line>27</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

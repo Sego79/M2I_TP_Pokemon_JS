@@ -1,4 +1,4 @@
-class Pokemon {
+export default class Pokemon {
     constructor(name, identificationNumber, sizePokemon, pokemonWeight, healthPoint, attack1, attack2) {
         this.name = name;
         this.identificationNumber = identificationNumber;
@@ -58,24 +58,7 @@ class Pokemon {
         return Math.floor(Math.random() * 2);
     }
 
-
 }
-//Initialisation des joueurs
-let attackPikachu1 = new Attaque("statik", 10);
-let attackPikachu2 = new Attaque("paratonnerre", 25);
-let attackEvoli1 = new Attaque("adaptability", 9);
-let attackEvoli2 = new Attaque("anticipation", 15);
-let pikachu = new Pokemon("Pikachu", 25, 40, 6, 82, attackPikachu1, attackPikachu2);
-let evoli = new Pokemon("Evoli", 133, 30, 6.5, 70, attackEvoli1, attackEvoli2);
 
-//Choix du premier attaquant
-if (Pokemon.randomFirstPlayer() == 0) {
-    attaquant1 = pikachu;
-    attaquant2 = evoli;
-} else {
-    attaquant1 = evoli;
-    attaquant2 = pikachu;
-}
-//Lancement du combat
-Pokemon.combat(attaquant1, attaquant2);
+
 

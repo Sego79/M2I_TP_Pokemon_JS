@@ -1,4 +1,4 @@
-class Attaque {
+export default class Attaque {
 
     constructor(attackName, nbeDegats) {
         this._attackName = attackName;
@@ -23,9 +23,5 @@ class Attaque {
         this._nbeDegats = value;
     }
 
-    afficher(){
-        console.log("L'attaque choisie est")
-        // console.log("L'attaque choisie est ${this.attackName} et elle fait ${this.nbeDegats}`)
-}
 
 }
